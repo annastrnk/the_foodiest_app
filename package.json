@@ -1,6 +1,7 @@
 {
   "name": "the_foodiest_app",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,6 +11,8 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.872.0",
+    "@supabase/supabase-js": "^2.55.0",
+    "@vercel/postgres": "^0.10.0",
     "better-sqlite3": "^12.2.0",
     "next": "15.4.7",
     "react": "19.1.0",
