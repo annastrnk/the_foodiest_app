@@ -5,7 +5,7 @@ export default function MealsGrid({ meals }) {
   return (
     <ul className={classes.meals}>
       {meals.map((meal) => (
-        <li key={meal.id}>
+        <li key={meal._id?.toString() || meal.slug}>
           <MealItem {...meal} />
         </li>
       ))}
